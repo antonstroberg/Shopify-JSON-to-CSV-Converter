@@ -101,7 +101,7 @@ def shopify_to_csv(domain):
     save_to_csv(domain, all_products)
 
 # Get domain from user
-domain = input("Enter the Shopify store domain (e.g., toysrus.com): ")
+domain = input("Enter the Shopify store domain (e.g., storedomain.com): ")
 
 # Run the script
 shopify_to_csv(domain)
