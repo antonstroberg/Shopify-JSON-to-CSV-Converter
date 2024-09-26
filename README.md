@@ -22,9 +22,9 @@ This Python script fetches product data from a Shopify store via the /products.j
 
 `python3 fetchConvert.py`
 
-* Input the domain for Shopify site - example yourdomain.com 
+* Input the domain for Shopify site - example storedomain.com 
 
 **Output**
 * The script will generate CSV files in the current directory.
-* If necessary, it will split the CSV files into smaller parts (e.g., shopify_inventory_toysrus_com_part_1.csv, shopify_inventory_toysrus_com_part_2.csv, etc.).
+* If necessary, it will split the CSV files into smaller parts (e.g., shopify_inventory_storedomain_com_part_1.csv, shopify_inventory_storedomain_com_part_2.csv, etc.).
 * Each file will contain a maximum of 1000 products by default (you can adjust this in the script).
